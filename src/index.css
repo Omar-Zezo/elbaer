@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: "El Messiri", serif;
+  height: 3000px;
+}
+
+
+.navbar{
+  .active{
+    color: #FFF;
+  }
+}
