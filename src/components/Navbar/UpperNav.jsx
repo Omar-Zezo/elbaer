@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { navSocialIcons } from "../../constant/index.js";
 
 const UpperNav = () => {
@@ -9,17 +10,13 @@ const UpperNav = () => {
         </p>
         <ul className="flex gap-5 items-center w-fit mr-auto">
           {navSocialIcons.map((social) => (
-            <li>
+            <li key={social.name}>
               <a href={social.link}>
-                <img
-                  width={16}
-                  height={16}
-                  src={social.icon}
-                  alt={social.name}
-                />
+              <FontAwesomeIcon className="size-4 text-[#9e9e9e] hover:text-white duration-300" icon={social.icon} />
               </a>
             </li>
           ))}
+          
         </ul>
       </div>
     </div>

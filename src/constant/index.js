@@ -1,13 +1,12 @@
-import { Facebook, Instagram, Snapchat, Twitter, Whatsapp, Youtube } from "../images/svg"
-
+import { faFacebookF, faTwitter, faYoutube, faInstagram, faSnapchat, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const navSocialIcons = [
-    {name: "twitter", icon: Twitter, link: "/"},
-    {name: "fcaebook", icon: Facebook, link: "/"},
-    {name: "youtube", icon: Youtube, link: "/"},
-    {name: "instagram", icon: Instagram, link: "/"},
-    {name: "snapchat", icon: Snapchat, link: "/"},
-    {name: "whatsapp", icon: Whatsapp, link: "/"},
+    {name: "twitter", icon: faTwitter, link: "/"},
+    {name: "fcaebook", icon: faFacebookF, link: "/"},
+    {name: "youtube", icon: faYoutube, link: "/"},
+    {name: "instagram", icon: faInstagram, link: "/"},
+    {name: "snapchat", icon: faSnapchat, link: "/"},
+    {name: "whatsapp", icon: faWhatsapp, link: "/"},
 ]
 
 

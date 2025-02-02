@@ -1,4 +1,6 @@
+import { faCartPlus, faWallet } from '@fortawesome/free-solid-svg-icons';
 import { Hands, Img1 } from '../../images/imgs'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Categories = () => {
   return (
@@ -23,9 +25,11 @@ const Categories = () => {
                 <h3 className='min-h-[55px] text-xl text-[#444]'>صندوق كفالة إيواء</h3>
                 <div className='flex flex-col gap-2'>
                     <button className='flex justify-center items-center bg-mainColor text-white text-base py-2 px-[10px] border border-mainColor hover:bg-white hover:text-mainColor duration-300 rounded-[15px]'>
+                    <FontAwesomeIcon className='size-5 ml-1' icon={faCartPlus} />
                     أضف إلى السلة
                     </button>
                     <button className='flex justify-center items-center bg-mainColor text-white text-base py-2 px-[10px] border border-mainColor hover:bg-white hover:text-mainColor duration-300 rounded-[15px]'>
+                    <FontAwesomeIcon className='size-5 ml-2' icon={faWallet} />
                     أدفع الأن
                     </button>
                 </div>
@@ -42,9 +46,11 @@ const Categories = () => {
                 <h3 className='min-h-[55px] text-xl text-[#444]'>صندوق كفالة إيواء</h3>
                 <div className='flex flex-col gap-2'>
                     <button className='flex justify-center items-center bg-mainColor text-white text-base py-2 px-[10px] border border-mainColor hover:bg-white hover:text-mainColor duration-300 rounded-[15px]'>
+                    <FontAwesomeIcon className='size-5 ml-1' icon={faCartPlus} />
                     أضف إلى السلة
                     </button>
                     <button className='flex justify-center items-center bg-mainColor text-white text-base py-2 px-[10px] border border-mainColor hover:bg-white hover:text-mainColor duration-300 rounded-[15px]'>
+                    <FontAwesomeIcon className='size-5 ml-2' icon={faWallet} />
                     أدفع الأن
                     </button>
                 </div>
@@ -61,14 +67,15 @@ const Categories = () => {
                 <h3 className='min-h-[55px] text-xl text-[#444]'>صندوق كفالة إيواء</h3>
                 <div className='flex flex-col gap-2'>
                     <button className='flex justify-center items-center bg-mainColor text-white text-base py-2 px-[10px] border border-mainColor hover:bg-white hover:text-mainColor duration-300 rounded-[15px]'>
+                    <FontAwesomeIcon className='size-5 ml-1' icon={faCartPlus} />
                     أضف إلى السلة
                     </button>
                     <button className='flex justify-center items-center bg-mainColor text-white text-base py-2 px-[10px] border border-mainColor hover:bg-white hover:text-mainColor duration-300 rounded-[15px]'>
+                    <FontAwesomeIcon className='size-5 ml-2' icon={faWallet} />
                     أدفع الأن
                     </button>
                 </div>
             </div>
-
            </div>
         </div>
     </div>

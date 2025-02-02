@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,4 +15,29 @@ body{
   .active{
     color: #FFF;
   }
+}
+
+.percentage-arrow {
+  &::after{
+    content: "";
+    position: absolute;
+    left: 3px;
+    bottom: -5px;
+    border: 5px solid #f80;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(45deg);
+  }
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* لـ Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
 }

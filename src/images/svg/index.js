@@ -6,6 +6,7 @@ import Youtube from "./youtube.svg"
 import Whatsapp from "./whatsapp.svg"
 import MailSend from "./mail-send.svg"
 import Calling from "./calling.svg"
+import HandsHolding from "./hands-holding-heart.svg"
 
 
-export {Facebook, Twitter, Instagram, Youtube, Snapchat, Whatsapp, MailSend, Calling}
+export {Facebook, Twitter, Instagram, Youtube, Snapchat, Whatsapp, MailSend, Calling, HandsHolding}
